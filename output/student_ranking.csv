@@ -6,6 +6,6 @@ Student_ID,Student_Name,English,Math,Computer,Physics,Chemistry,Total_Marks,Perc
 1,Ali,78,85,92,74,80,409,81.8,Pass,A,5
 2,Ahmed,65,72,80,68,75,360,72.0,Pass,B,6
 8,Bilal,70,62,75,58,66,331,66.2,Pass,C,7
-4,Hassan,55,48,70,52,60,285,56.99999999999999,Pass,D,8
+4,Hassan,55,48,70,52,60,285,57.0,Pass,D,8
 6,Usman,45,38,65,42,50,240,48.0,Fail,F,9
 9,Zain,35,45,50,30,40,200,40.0,Fail,F,10

@@ -22,8 +22,9 @@ The dataset is manually created using Python dictionaries.
 - Calculate class pass percentage
 - Rank students based on performance
 - Identify students who need improvement
-- Perform basic data validation
+- Perform data validation
 - Export reports to CSV files
+- Perform automated tests using unittest
 
 ## Technologies Used
 
@@ -31,6 +32,7 @@ The dataset is manually created using Python dictionaries.
 - Pandas
 - NumPy
 - CSV File Handling
+- Unittest
 
 ## Project Structure
 
@@ -41,6 +43,9 @@ Study-Score-Calculator/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+│
+├── tests/
+│   └── test_analysis.py
 │
 └── output/
     ├── student_results.csv
@@ -84,6 +89,32 @@ The project generates four CSV reports inside the output folder:
 - **student_ranking.csv:** Shows student rankings based on their percentages.
 - **students_needing_improvement.csv:** Contains students who need improvement based on their results.
 
+## Data Validation
+
+The project checks student data before performing calculations.
+
+It validates:
+
+- Required columns
+- Empty datasets
+- Missing values
+- Unique student IDs
+- Valid student IDs and names
+- Numeric marks
+- Marks between 0 and 100
+
+## Automated Testing
+
+The project includes 15 automated tests using Python's unittest framework.
+
+These tests check data validation, student IDs, student names, marks, and other important conditions.
+
+To run the tests, use:
+
+```bash
+py -m unittest tests/test_analysis.py -v
+```
+
 ## Passing Criteria
 
 A student must get at least 40 marks in every subject to pass.
@@ -102,7 +133,8 @@ While making this project, I practiced:
 - Sorting student records
 - Analyzing subject-wise performance
 - Working with CSV files
-- Performing basic data validation
+- Performing data validation
+- Writing automated tests using unittest
 
 ## Future Improvements
 

@@ -1,4 +1,4 @@
 Student_ID,Student_Name,English,Math,Computer,Physics,Chemistry,Total_Marks,Percentage,Result,Grade
-4,Hassan,55,48,70,52,60,285,56.99999999999999,Pass,D
+4,Hassan,55,48,70,52,60,285,57.0,Pass,D
 6,Usman,45,38,65,42,50,240,48.0,Fail,F
 9,Zain,35,45,50,30,40,200,40.0,Fail,F
